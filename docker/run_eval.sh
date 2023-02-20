@@ -1,0 +1,1 @@
+python3 eval.py --pretrain /workspace/hero_radar_odometry/models/under_the_radar_res2592.pt --config config/radar.json
