@@ -1,8 +1,8 @@
 {
     "model": "HERO",
     "dataset": "oxford",
-    "data_dir": "/workspace/data/",
-    "log_dir": "/workspace/Documents/logs/2021-01-17-1/run24_l1_loss_kaiming_both_masks/",
+    "data_dir": "/workspace/data/2019-01-10-14-36-48-radar-oxford-10k-partial",
+    "log_dir": "/workspace/logs/test/",
     "gpuid": "cuda:0",
     "radar_resolution": 0.0432,
     "cart_resolution": 0.2592,

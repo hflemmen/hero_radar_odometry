@@ -1,4 +1,4 @@
-docker run --gpus all --rm -it \
+docker run --gpus all --rm -it --runtime=nvidia \
     --name hero_docker \
     -v /home/henrik/Data/oxford/2019-01-10-14-36-48-radar-oxford-10k-partial:/workspace/data/2019-01-10-14-36-48-radar-oxford-10k-partial \
     -v /home/henrik/Repos/hero_radar_odometry:/workspace/hero_radar_odometry \
