@@ -1,5 +1,5 @@
 {
-    "model": "UnderTheRadar",
+    "model": "HERO",
     "dataset": "oxford",
     "data_dir": "/workspace/data/",
     "log_dir": "/workspace/Documents/logs/2021-01-17-1/run24_l1_loss_kaiming_both_masks/",

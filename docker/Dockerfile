@@ -15,7 +15,7 @@ RUN apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/
 RUN apt-get update
 RUN apt-get upgrade -y --no-install-recommends
 RUN apt-get update
-RUN apt-get install gcc g++ python3 python3-pip python3-dev libglib2.0-0 libgl1-mesa-glx -y --no-install-recommends
+RUN apt-get update && apt-get install gcc g++ python3 python3-pip python3-dev libglib2.0-0 libgl1-mesa-glx -y --no-install-recommends
 RUN apt-get install unzip -y
 
 # Install pip packages
